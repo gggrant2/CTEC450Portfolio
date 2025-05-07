@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Genesis Grant Portfolio Website </title>
+    <link rel="stylesheet" href="Website.css">
+  </head>
+
+  <body>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h1 style="font-size:50px" >Home</h1>
+      <h1>Welcome to My Portfolio</h1>
+      <button class="center-button" onclick="changeBackground()">Change Background</button>
+      <p style = "text-align: center"><strong>Welcome to Genesis Grant's CTEC 450 Portfolio Website.</p></strong>
+      <p>This website serves as an introduction to my undergraduate coursework, technical capabilities, and ongoing professional development within the computer technology field. Users are invited to explore projects, review my resume, and engage with an interactive chatbot assistant for further insight. </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1>About Genesis</h1>
+      <p>I am anticipated to graduate with a Bachelors of Science in Computer Technology with a Concentration in Data Science and Database Administration, from Bowie State University in May 2025. </p>
+      <p>I have gained hands-on experience through internships at Bowie State University, the MITRE Corporation, and the National Institute of Standards and Technology (NIST), where I contributed to a range of technical projects involving AI security, embedded systems, and data analytics.</p>
+      <p>My technical background includes proficiency in Python, SQL, and data-focused libraries such as Pandas, NumPy, and Matplotlib, along with software like Jupyter Notebook, Tableau, and Excel. I have applied these skills in real-world projects, developing automated systems, analyzing large datasets, and working on solutions for prompt injection vulnerabilities in LLMs. </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+      <h1>Projects</h1>
+      <p>Interested in some of my coursework? Click this link for a full repository of my undergraduate coursework:</p>
+      <a href="https://github.com/gggrant2/CTEC-Folders" target="_blank">View Repository</a>
+
+      <h2>Highlighted Projects</h2>
+      <p style="text-align: center">The following projects represent a selection of coursework completed by me, within the Computer Technology program at Bowie State University. Each project highlights practical applications of data science, programming, and analytical skills gained through academic and internship experiences. Click on a project title to explore detailed examples of coursework, technical implementation, and creative design.</p>
+
+      <div class="project">
+        <h3>
+          <li style="color: black"><a href="https://github.com/gggrant2/CTEC-Folders/tree/main/CTEC298" target="_blank">
+            CTEC 298: Symbolic Computation Using Big Data
+          </a></li>
+        </h3>
+        <p2>
+          Within <a href="https://github.com/gggrant2/CTEC-Folders/blob/main/CTEC298/CTEC298Data%20(1).ipynb" target="_blank">CTEC298Data Jupyter Notebook,</a> I used Python and data wrangling libraries to import raw data for cleaning and organize it for analysis. I created visualizations to highlight key patterns and trends, then put together a <a href="https://github.com/gggrant2/CTEC-Folders/blob/main/CTEC298/CTEC298FinalPresentation.GG.pptx" target="_blank">final presentation</a> to explain my findings and what the data revealed.
+        </p2>
+      </div>
+
+      <div class="project">
+        <h3>
+          <li style="color: black"><a href="https://github.com/gggrant2/CTEC-Folders/tree/c3cdaaf192fa960b717758983713275fe9d92ad2/CTEC402" target="_blank">
+            CTEC 402: Software and Operating System Security
+          </a></li>
+        </h3>
+        <p2>
+           For my <a href="https://github.com/gggrant2/CTEC-Folders/blob/main/CTEC402/CTEC402Project1Harmful%20Impacts%20of%20Jailbroken%20AI%20and%20Potential%20Mitigations.pptx" target="_blank">final course project</a>, I expanded my internship research on the security of large language models (LLMs). I explored vulnerabilities related to prompt injection and jailbreak attacks, conducted testing to evaluate these risks, and presented mitigation strategies aimed at strengthening model defenses.
+        </p2>
+      </div>
+
+      <div class="project">
+        <h3>
+          <li style="color: black"><a href="https://github.com/gggrant2/CTEC-Folders/tree/main/CTEC426" target="_blank">
+            CTEC 426: Expert Systems Using Big Data
+          </a>
+        </h3>
+        <p2>
+          The <a href="https://github.com/gggrant2/CTEC-Folders/blob/main/CTEC426/Analyzing%20Wage%20Disparities" target="_blank">CTEC 426 Jupyter Notebook project</a> analyzes wage disparities across groups using raw data from the 2024 Census Bureau. Using Python libraries, the <a href="https://github.com/gggrant2/CTEC-Folders/blob/main/CTEC426/CTEC426Data.ipynb" target="_blank">data was cleaned</a> and processed to generate visualizations that examine income distribution by race, gender, and industry, uncovering recent patterns and possible inequalities based on the most up-to-date and relevant information available.
+        </p2>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <h1>Resume</h1>
+      <p>You can view or download my resume using the links below:</p>
+
+      <!-- View resume in browser -->
+      <a href="Genesis Grant Resume.pdf" target="_blank"> View Resume</a>
+      <br>
+
+      <!-- Download resume -->
+      <a href="Genesis Grant Resume.pdf" download> Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>Trying to reach me? Fill out this form and I'll get back to you! </p>
+      <iframe
+      width="640px"
+      height="480px"
+      src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAD2C2j9UNFEwRks4Ujk4UVlNM0xPNUM2Q1BEMllHRy4u&embed=true"
+      style="border: none; max-width:100%; max-height:100vh">
+      </iframe>
+    </section>
+
+    <section id="qr code">
+      <h1> QR CODE TO PORTFOLIO WEBSITE</h1>
+      <img src="qr-code.png" alt="QR Code to Portfolio" width="200">
+    </section>>
+
+
+    <!-- Chatbot Section -->
+      <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+      <script src="https://files.bpcontent.cloud/2025/05/07/06/20250507062749-0C0BS0MU.js"></script>
+
+
+
+    <script src="Website.js"></script>
+  </body>
+
+</html>
+
+

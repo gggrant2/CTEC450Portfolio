@@ -1,0 +1,46 @@
+#home {
+  border: 2px solid #333;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+h1 {
+    color:#f884e3;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    color:#f884e3;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+    color:#f884e3;
+}
+p2 {
+   font-size: 15px;
+}
+
+.center-button {
+  display: block;
+  margin: 40px auto; /* auto left/right centers it */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
